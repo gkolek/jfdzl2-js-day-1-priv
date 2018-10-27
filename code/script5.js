@@ -9,18 +9,18 @@
 // console.log('kup bilety do kina');
 
 
+
+// if (x === 1) {
+//     console.log(1)
+// } else if (x == '1') {
+//     console.log(2);
+// } else if (x === 3) {
+//     console.log(x);
+// } else {
+//     console.log(0);
+// }
+
 var x = 1;
-
-if (x === 1) {
-    console.log(1)
-} else if (x == '1') {
-    console.log(2);
-} else if (x === 3) {
-    console.log(x);
-} else {
-    console.log(0);
-}
-
 
 
 switch (x) {
@@ -42,4 +42,3 @@ switch (x) {
 
 
 
-}
