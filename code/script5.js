@@ -20,25 +20,35 @@
 //     console.log(0);
 // }
 
-var x = 1;
+
+// switch (x) {
+//     case 1:
+//     console.log(1);
+//     break;
+
+//     case '1':
+//     console.log(2);
+//     brake;
+
+//     case 3:
+//     console.log(x);
+//     break;
+
+//    default:
+//     console.log(1);
+// }
 
 
-switch (x) {
-    case 1:
-    console.log(1);
-    break;
+var x = 10;
+var y = x=== 1 ? 1 : x === '1' ? 2 : x === 3 ? x : 0;
 
-    case '1':
-    console.log(2);
-    brake;
+console.log(y);
 
-    case 3:
-    console.log(x);
-    break;
 
-   default:
-    console.log(1);
-}
+// var y = x=== 1 ? 1 : 
+//     x === '1' ? 2 : 
+//         x === 3 ? 
+//             x : 0;
 
 
 
